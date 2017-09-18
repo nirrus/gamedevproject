@@ -1,7 +1,8 @@
 {
   "name": "fqst",
   "version": "1.0.0",
-  "description": "",
+  "description": "testproject",
+  "repository":"https://github.com/nirrus/gamedevproject",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
