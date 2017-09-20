@@ -1,16 +1,54 @@
 <!doctype html>
 <html lang = "en">
 	<head>
-  <title>clientpage</title>
+		<meta charset = "utf-8"/>
+		<meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=0 minimal-ui" />
+  <title>title</title>
+		<style>
+			 body{
+				 background-color:#345;
+				 background-image: url('/client/img/gbg.png');
+				 background-repeat: repeat;
+				 color:#def;
+			 }
+			  body::before{
+					display:block;
+					background-image: url('/client/img/loading.gif');
+					content:" ";
+					background-repeat:no-repeat;
+					position:fixed;
+					margin:auto;
+					width:550px;
+					height:400px;
+				}
+		</style>
 	</head>
 	<body>
-
 	<div id="gameDiv"></div>
-
 	</body>
-	<script src="client/lib/phaser.js"></script>
-	<script src="/socket.io/socket.io.js"></script>
-	<script src="client/player.js"></script>
-	<script src="client/colide.js"></script>
-	<script src="client/main.js"></script>
+
+
+
+	<script  src="client/lib/phaser.js"></script>
+
+<!-- <script src="/phaser.js"></script> -->
+<script src="/socket.io/socket.io.js"></script>
+
+<script src="client/player.js"></script>
+<script src="client/colide.js"></script>
+<script src="client/main.js"></script>
+
+
+
+
+
+
+	  <script>
+	  //for(var i=0; i<1000000000; i++){}
+	  </script>
+
+<style>
+	body::before{	display:none;	background:none;	}
+</style>
+
 </html>

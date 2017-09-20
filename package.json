@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "testproject",
   "repository": "https://github.com/nirrus/gamedevproject",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.15.4",
     "p2": "^0.7.1",
+    "phaser": "^2.6.2",
     "socket.io": "^2.0.3"
   }
 }
